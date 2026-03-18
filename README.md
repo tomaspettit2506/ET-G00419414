@@ -10,12 +10,6 @@
 ## Overview
 This repository contains a complete Python implementation of the difference between classical and quantum algorithms. The assessment is divided into 5 problems covering generate random boolean, classical test, Quantum Oracles, Qiskit, and scaling algorithms.
 
-## Project Structure
-- `README.md` - Project overview and usage instructions
-- `requirements.txt` - Python dependencies
-- `.gitignore` - Git ignore rules along with Python
-- `problems.ipynb` - Jupyter Notebook containing all implementations and documentation
-
 ## Requirements
 - `Python 3.9+` (for modern type hints like list[int])
 
@@ -37,6 +31,15 @@ Main dependencies: `numpy` for 32-bit unsigned integer operations and mathematic
 5. Run cells sequentially from top to bottom
 
 **Note:** Cells must be run in order as later problems depend on functions from earlier problems.
+
+## Project Structure
+```text
+.
+├── problems.ipynb      # Main notebook with problem solutions
+├── README.md          # This file
+├── requirements.txt   # Python package dependencies
+└── .gitignore        # Git ignore rules
+```
 
 ## Problems Implemented
 
