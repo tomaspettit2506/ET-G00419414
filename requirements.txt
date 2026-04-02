@@ -3,7 +3,11 @@ ipykernel
 jupyterlab
 notebook
 numpy
+
 # Plotting.
 matplotlib
 qiskit[visualization]
 qiskit-aer
+
+# Symbolic mathematics.
+sympy
