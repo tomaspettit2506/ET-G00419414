@@ -50,12 +50,10 @@ Implements a Python function generator that creates random Boolean functions gua
 Develops a classical algorithm to determine whether a mystery Boolean function is constant or balanced by querying it with different inputs. Analyzes the query complexity (worst case: 9 queries for 4-bit functions) to establish a baseline for quantum comparison.
 
 ### Problem 3: Quantum Oracles
-Implements quantum oracles for all possible single-bit Boolean functions, as required by Deutsch's algorithm. Each oracle is a reversible quantum circuit in Qiskit that encodes a classical Boolean function $f(x)$ as a transformation $(x, y) \rightarrow (x, y \oplus f(x))$, where $\oplus$ is XOR. This ensures reversibility, a requirement for quantum operations.
+Creates quantum oracles one-by-one using Qiskit for the four single-bit Boolean functions used in Deutsch's algorithm and explain why it would work. Demonstrates how classical functions are encoded as quantum circuits using quantum gates (X and CNOT), introducing the fundamental concept of reversible quantum computation.
 
 ### Problem 4: Deutsch's Algorithm with Qiskit
-[Quantum circuit implementation for single-bit functions]
-
-[Coming Soon]
+Implements the complete Deutsch's quantum algorithm circuit that determines if a single-bit function is constant or balanced using only one query. Demonstrates quantum interference and superposition, achieving the result with half the queries required classically.
 
 ### Problem 5: Scaling to the Deutsch–Jozsa Algorithm
 [Generalizing to four-bit Boolean functions]
@@ -69,6 +67,21 @@ Implements quantum oracles for all possible single-bit Boolean functions, as req
 - NumPy
 - Matplotlib
 
+## Final Result Figures
+### Problem 1: Generating Random Boolean Functions
+![Problem 1 Constant and Balance](img/problem1_results.png)
+
+### Problem 2: Classical Output Distribution
+![Problem 2 Classical Output](img/problem2_results.png)
+
+### Problem 3: Oracle Circuit Results
+![Problem 3 Oracle Circuit](img/problem3_oracles.png)
+
+### Problem 4: Deutsch Algorithm Results
+![Problem 4 Deutsch](img/problem4_deutsch.png)
+
+### Problem 5: Deutsch-Jozsa Results
+![Problem 5 Deutsch-Jozsa Comparison](img/problem5_comparison.png)
 
 ## References
 - [Deutsch-Jozsa Algorithms | IBM Quantum Platform](https://quantum.cloud.ibm.com/learning/en/modules/computer-science/deutsch-jozsa)
