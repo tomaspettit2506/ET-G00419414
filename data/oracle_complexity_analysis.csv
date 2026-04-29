@@ -1,0 +1,5 @@
+Oracle,Gates,Depth,Description
+Oracle (constant 0),0,0,"No gates, always returns 0"
+Oracle (constant 1),1,1,"1 X gate, always returns 1"
+Oracle (identity),1,1,"1 CNOT gate, returns input value"
+Oracle (NOT),3,3,"2 X gates + 1 CNOT, returns negation of input"

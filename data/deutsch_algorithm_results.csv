@@ -1,0 +1,5 @@
+Oracle_Name,Measured_Value,Classification,Correct
+f1 (constant 0),0,constant,PASS
+f2 (constant 1),0,constant,PASS
+f3 (identity),1,balanced,PASS
+f4 (NOT),1,balanced,PASS

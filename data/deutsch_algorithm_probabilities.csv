@@ -1,0 +1,5 @@
+Oracle_Name,P(0) Constant,P(1) Balanced
+f1 (constant 0),100.0,0.0
+f2 (constant 1),100.0,0.0
+f3 (identity),0.0,100.0
+f4 (NOT),0.0,100.0

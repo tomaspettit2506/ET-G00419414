@@ -56,9 +56,7 @@ Creates quantum oracles one-by-one using Qiskit for the four single-bit Boolean 
 Implements the complete Deutsch's quantum algorithm circuit that determines if a single-bit function is constant or balanced using only one query. Demonstrates quantum interference and superposition, achieving the result with half the queries required classically.
 
 ### Problem 5: Scaling to the Deutsch–Jozsa Algorithm
-[Generalizing to four-bit Boolean functions]
-
-[Coming Soon]
+Generalizes Deutsch's algorithm to handle 4-bit Boolean functions from Problem 1. Demonstrates the full quantum advantage where one quantum query replaces up to 9 classical queries.
 
 ## Technologies Used
 - Python
@@ -71,17 +69,29 @@ Implements the complete Deutsch's quantum algorithm circuit that determines if a
 ### Problem 1: Generating Random Boolean Functions
 ![Problem 1 Constant and Balance](img/problem1_results.png)
 
+> [Distribution Summary](data/distribution_summary.csv)
+
 ### Problem 2: Classical Output Distribution
 ![Problem 2 Classical Output](img/problem2_results.png)
+
+> [Classification Summary](data/classification_summary.csv)
 
 ### Problem 3: Oracle Circuit Results
 ![Problem 3 Oracle Circuit](img/problem3_oracles.png)
 
+> [Oracle Complexity Analysis](data/oracle_complexity_analysis.csv)
+
 ### Problem 4: Deutsch Algorithm Results
 ![Problem 4 Deutsch](img/problem4_deutsch.png)
 
+> [Deutsch Algorithm Results](data/deutsch_algorithm_results.csv)
+
+> [Deutsch Algorithm Probabilities](data/deutsch_algorithm_probabilities.csv)
+
 ### Problem 5: Deutsch-Jozsa Results
 ![Problem 5 Deutsch-Jozsa Comparison](img/problem5_comparison.png)
+
+> [Deutsch Jozsa Test Results](data/deutsch_jozsa_test_results.csv)
 
 ## References
 - [Deutsch-Jozsa Algorithms | IBM Quantum Platform](https://quantum.cloud.ibm.com/learning/en/modules/computer-science/deutsch-jozsa)
