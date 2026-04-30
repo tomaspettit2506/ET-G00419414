@@ -1,4 +1,4 @@
-Function Type,Count
-Constant (False),2464
-Balanced,5046
-Constant (True),2490
+Function Type,Count,Percentage (%)
+Constant (False),2475,24.75
+Balanced,4964,49.64
+Constant (True),2561,25.61
