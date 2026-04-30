@@ -5,7 +5,7 @@
 
 **Course:** _Software Development_
 
-**Module:** _Emerging Technology_💻
+**Module:** _Emerging Technology💻_
 
 ## Overview
 This repository contains a complete Python implementation of the difference between classical and quantum algorithms. The assessment is divided into 5 problems covering generate random boolean, classical test, Quantum Oracles, Qiskit, and scaling algorithms.
