@@ -1,12 +1,31 @@
+# Interactive Python shell
 ipython
+
+# Jupyter notebook/lab support
 ipykernel
+
+# Jupyter Lab
 jupyterlab
+
+# Jupyter notebook
 notebook
+
+# Product
+qiskit
+
+# Numpy
 numpy
+
+# Pandas
+pandas
 
 # Plotting.
 matplotlib
+
+# Quantum computing
 qiskit[visualization]
+
+# Quantum simulators.
 qiskit-aer
 
 # Symbolic mathematics.
