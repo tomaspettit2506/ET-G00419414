@@ -1,11 +1,11 @@
 # Assessment Summer 25/26 (Year 4️⃣)
-**Author:** Tomás Pettit
+**Author:** _Tomás Pettit_
 
-**Student ID:** G00419414
+**Student ID:** _G00419414_
 
-**Course:** Software Development
+**Course:** _Software Development_
 
-**Module:** Emerging Technology 💻
+**Module:** _Emerging Technology_💻
 
 ## Overview
 This repository contains a complete Python implementation of the difference between classical and quantum algorithms. The assessment is divided into 5 problems covering generate random boolean, classical test, Quantum Oracles, Qiskit, and scaling algorithms.

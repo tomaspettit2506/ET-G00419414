@@ -1,5 +1,5 @@
 Function Name,Measured,Classification,Correctness
 Constant (always False),0000,constant,PASS
 Constant (always True),0000,constant,PASS
-Balanced function 1,1101,balanced,PASS
-Balanced function 2,0011,balanced,PASS
+Balanced function 1,0011,balanced,PASS
+Balanced function 2,1111,balanced,PASS
